@@ -8,6 +8,8 @@ import { RegisterComponent } from './register/register.component';
 import { DashaboardComponent } from './dashaboard/dashaboard.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,8 +19,10 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     LandingPageComponent
   ],
   imports: [
+
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
