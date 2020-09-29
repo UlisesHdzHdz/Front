@@ -1,12 +1,52 @@
 
-<div *ngIf = "products.length === 0" >
-   <p>
-nada
-    </p>
+<!-- <div class="bodyButton">
+    <button (click)="showHide()">
+        {{nameButton}}
+    </button>
+</div> -->
+
+<div class="body">
+
+
+    <!-- <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div> -->
+
+    <!-- <div *ngIf="products.length === 0">
+        <p>
+            {{info | uppercase}}
+        </p>
+    </div> -->
+
+    <!-- <div *ngFor="let product of products"> -->
+    <!-- <p>
+            {{product.id}} / {{product.name}} / {{product.price}}
+        </p>
+         -->
+<div class="tableCenter">
+   <table class="table">
+        <!-- la cabezera princial de la tabla-->
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">id</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Precio</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- es el cuerpo de los datos que se van a mostrar en mi tabla  -->
+            <tr *ngFor="let product of products">
+                <th scope="row"> {{product.id}}</th>
+                <td>{{product.name}}</td>
+                <td> {{product.price}}</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 
-<div *ngFor="let product of products">
-<p>
-    {{product.id}} /   {{product.name}} /   {{product.price}}
-</p>
+ 
+
+    <!-- </div> -->
+
 </div>

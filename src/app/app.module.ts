@@ -9,6 +9,7 @@ import { DashaboardComponent } from './dashaboard/dashaboard.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
     LoginComponent,
     RegisterComponent,
     DashaboardComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    HeaderComponent
   ],
   imports: [
 
