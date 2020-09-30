@@ -28,3 +28,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Primera configuracion del proyecto angular
 no se ha instalado ninguna dependencia de `Node Modules` solo de `componentes`
+
+## Integracion de firebase pasos
+1.-Instalcion `npm install -g firebase-tools`

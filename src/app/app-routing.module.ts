@@ -7,10 +7,9 @@ import { LoginComponent } from './login/login.component';
 
 
 const routes: Routes = [
-{path : '',redirectTo :'landing-page',pathMatch :'full'},
+{path : '',redirectTo :'login',pathMatch :'full'},
+{path:'login',component : LoginComponent},
 {path:'landing-page',component : LandingPageComponent},
-{path:'login',component : LoginComponent}
-
 
 ];
 
