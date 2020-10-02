@@ -49,3 +49,8 @@ commit de para restaurar todo
 1.integracion de entradas
 2.integracion de botones
 3.Nota el funcionamiento pendiente
+
+## Integracion de Formulario Diseño
+1.integracion de entradas
+2.integracion de botones
+3.Nota el funcionamiento pendiente
