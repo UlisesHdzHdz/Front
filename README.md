@@ -44,3 +44,8 @@ commit de para restaurar todo
 
 ## Intergracion del login diseño
 1.por lo pronto solo esta el diseño 
+
+## integracion de  Register diseño
+1.integracion de entradas
+2.integracion de botones
+3.Nota el funcionamiento pendiente
