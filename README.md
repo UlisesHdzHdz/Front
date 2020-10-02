@@ -34,3 +34,9 @@ no se ha instalado ninguna dependencia de `Node Modules` solo de `componentes`
 
 ## Inicio del Proyecto del primer corte
 commit de para restaurar todo
+
+## intergracion del menu de Dashboard
+1.-agrege un componente llamado formulario
+2.-importe los componentes en app routing
+   login,register,formulario
+3.-agrege el funcionamiento de la navegacion entre paginas

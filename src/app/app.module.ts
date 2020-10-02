@@ -10,6 +10,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { HeaderComponent } from './header/header.component';
+import { FormularioComponent } from './formulario/formulario.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HeaderComponent } from './header/header.component';
     RegisterComponent,
     DashaboardComponent,
     LandingPageComponent,
-    HeaderComponent
+    HeaderComponent,
+    FormularioComponent
   ],
   imports: [
 
