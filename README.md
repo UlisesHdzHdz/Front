@@ -40,3 +40,7 @@ commit de para restaurar todo
 2.-importe los componentes en app routing
    login,register,formulario
 3.-agrege el funcionamiento de la navegacion entre paginas
+
+
+## Intergracion del login diseño
+1.por lo pronto solo esta el diseño 
